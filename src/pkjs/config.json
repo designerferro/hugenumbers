@@ -1,0 +1,140 @@
+[
+  {
+    "type": "heading",
+    "defaultValue": "hugenumbers — Flux inspired"
+  },
+  {
+    "type": "section",
+    "items": [
+      {
+        "type": "select",
+        "messageKey": "NumeralSystem",
+        "defaultValue": 0,
+        "label": "Numerals",
+        "options": [
+          {
+            "label": "Western 0123456789",
+            "value": 0
+          },
+          {
+            "label": "Eastern Arabic ٠١٢٣٤٥٦٧٨٩",
+            "value": 1
+          },
+          {
+            "label": "Devanagari ०१२३४५६७८९",
+            "value": 2
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "messageKey": "ColorScheme",
+        "defaultValue": 0,
+        "label": "Colour scheme",
+        "options": [
+          {
+            "label": "Mint / violet",
+            "value": 0
+          },
+          {
+            "label": "Lemon / midnight",
+            "value": 1
+          },
+          {
+            "label": "Apricot / burgundy",
+            "value": 2
+          },
+          {
+            "label": "Black / white",
+            "value": 3
+          },
+          {
+            "label": "Ice / cobalt",
+            "value": 4
+          },
+          {
+            "label": "Sky / navy",
+            "value": 5
+          },
+          {
+            "label": "Azure / royal blue",
+            "value": 6
+          },
+          {
+            "label": "Cyan / midnight",
+            "value": 7
+          },
+          {
+            "label": "Periwinkle / indigo",
+            "value": 8
+          },
+          {
+            "label": "Powder blue / ocean",
+            "value": 9
+          },
+          {
+            "label": "Electric / deep blue",
+            "value": 10
+          },
+          {
+            "label": "Teal / navy",
+            "value": 11
+          },
+          {
+            "label": "Custom",
+            "value": 12
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "messageKey": "IdleBehavior",
+        "defaultValue": 0,
+        "label": "When animation stops",
+        "description": "Used when the backlight is off, or after the 15-second shake display ends on older watches.",
+        "options": [
+          {
+            "label": "Inverted outline",
+            "value": 0
+          },
+          {
+            "label": "Color field outline",
+            "value": 1
+          },
+          {
+            "label": "Freeze normal face",
+            "value": 2
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "defaultValue": "To use the two color pickers below, first set Colour scheme to Custom. Preset schemes ignore the custom colors."
+      },
+      {
+        "type": "color",
+        "messageKey": "CustomUpperColor",
+        "defaultValue": "55AAFF",
+        "label": "Custom upper color",
+        "description": "Only active when Colour scheme is Custom.",
+        "sunlight": false
+      },
+      {
+        "type": "color",
+        "messageKey": "CustomLowerColor",
+        "defaultValue": "000055",
+        "label": "Custom rising color",
+        "description": "Only active when Colour scheme is Custom.",
+        "sunlight": false
+      },
+      {
+        "type": "text",
+        "defaultValue": "Seconds rise from bottom to top. Custom colors are mapped to Pebble's palette. Monochrome watches use black and white."
+      }
+    ]
+  },
+  {
+    "type": "submit",
+    "defaultValue": "Save"
+  }
+]

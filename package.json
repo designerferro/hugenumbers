@@ -1,0 +1,63 @@
+{
+  "name": "hugenumbers",
+  "author": "designerferro",
+  "version": "1.0.4",
+  "keywords": [
+    "pebble-app"
+  ],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "hugenumbers",
+    "uuid": "608c1ac7-2335-41ec-846a-16e42e7f20e6",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite",
+      "emery",
+      "flint",
+      "gabbro"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "messageKeys": {
+      "NumeralSystem": 1,
+      "ColorScheme": 2,
+      "CustomUpperColor": 3,
+      "CustomLowerColor": 4,
+      "IdleBehavior": 5
+    },
+    "resources": {
+      "media": [
+        {
+          "type": "bitmap",
+          "name": "IMAGE_MENU_ICON",
+          "file": "images/menu_icon.png",
+          "menuIcon": true
+        },
+        {
+          "type": "raw",
+          "name": "NUMERALS_WESTERN",
+          "file": "numerals/western.bin"
+        },
+        {
+          "type": "raw",
+          "name": "NUMERALS_EASTERN",
+          "file": "numerals/eastern.bin"
+        },
+        {
+          "type": "raw",
+          "name": "NUMERALS_DEVANAGARI",
+          "file": "numerals/devanagari.bin"
+        }
+      ]
+    },
+    "capabilities": [
+      "configurable"
+    ]
+  }
+}
