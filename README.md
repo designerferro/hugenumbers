@@ -155,3 +155,7 @@ with the platform name; the banner is uploaded through the Developer Portal.
 - `package.json`: resource manifest and AppMessage keys.
 
 SDK documentation: <https://developer.repebble.com>
+
+## Development
+
+Developed with assistance from OpenAI Codex.
